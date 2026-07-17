@@ -17,6 +17,8 @@ h1,h2,h3,p { margin-top:0; }
 h1 { margin-bottom:10px; font:600 clamp(37px,5vw,54px)/1.15 "Source Serif 4",serif; }
 h1 span { color:var(--muted); font:400 22px Inter,sans-serif; margin-left:8px; }
 .lead { max-width:720px; margin-bottom:17px; color:#3d464e; font-size:19px; line-height:1.55; }
+.availability { max-width:760px; margin:0 0 16px; padding:9px 12px; background:#f0f7f2; border-left:3px solid #32804a; color:#3f5545; font-size:13px; line-height:1.5; }
+.availability span { display:inline-block; width:8px; height:8px; margin-right:7px; border-radius:50%; background:#32804a; }
 .contact { display:flex; flex-wrap:wrap; gap:8px 20px; font-size:13px; }
 .contact span { color:var(--muted); }
 .layout { display:grid; grid-template-columns:minmax(0,1fr) 240px; gap:65px; padding:42px 0 70px; }
